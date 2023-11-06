@@ -8,7 +8,8 @@ In the past there have been many mandatory policies aimed at the improvement of 
 2. [Neuro-Degeneration](#neuro-degeneration)
 3. [Spread and Dissent](#spread-and-dissent)
 1. [Eden](#eden)
-1. [A note on the Body of Theseus ](#a-note-on-the-body-of-theseus)
+1. [A note on the Body of Theseus ](#a-note-on-the-body-of-theseus)  
+
 ### Funding
 
 One of the greatest barriers to a program such as this one would be the funding of such a project as it is fairly easy to see that upgrading large mounts of humanuty to cyborgs would be fairly hard. The proposition i have from a local UK perspective initially would be to reallocaten parts of the NHS and military budgets. With people having replaced much of their organic components with robotic parts the need for tradiditonal healthcare is vastly reduced. Much of the necessary basic maintanence can be folded into the robotic shell. For any damage to the form the cost to repair this should in be throry much cheaper as the robotic shell will be partially standardiswed making the repair of these forms vey simple. I feel that is is very easy to see where the lack of a need for a military would arise from where we have a nation nearly fully inhabited by robotic people.
