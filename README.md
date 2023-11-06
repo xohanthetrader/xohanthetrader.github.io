@@ -10,3 +10,8 @@ I would like to welcome whomever is reading this document and intoduce to you th
     3. [Spread and Dissent](OnMandatoryCyberneticEnhancement.md/#spread-and-dissent)
     1. [Eden](OnMandatoryCyberneticEnhancement.md/#eden)
     1. [A note on the Body of Theseus ](OnMandatoryCyberneticEnhancement.md/#a-note-on-the-body-of-theseus)
+2. [On Fractal Dreams](OnFractalDreams)
+    1. [Fractals](OnFractalDreams.md/#fractals)
+    1. [Non Euclidean](OnFractalDreams.md/#non-euclidean)
+    1. [Conclusion](OnFractalDreams.md/#conclusion)
+
