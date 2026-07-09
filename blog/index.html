@@ -1,0 +1,18 @@
+<html id = "page">
+    <head>
+        <script src = "/main.js"></script>
+        <script src = "posts.js"></script>
+        <script>
+            function init(){
+                genList(posts,document.getElementById("listing"))
+                embed(document.getElementById("body"),document.getElementById("page"))
+            }
+        </script>
+        
+    </head>
+    <body id = "body" onload="init()">
+        <ul id="listing">
+            
+        </ul>
+    </body>
+</html>

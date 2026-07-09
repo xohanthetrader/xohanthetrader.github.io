@@ -1,0 +1,20 @@
+<html class="bg">
+    <head id = "head">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/blog/tex.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        <script src="../texembedder.js"></script>
+        <script>
+            function init(){
+                embed(document.getElementById("top"),document.getElementById("content"),"./proof.html")
+            }
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    </head>
+    <body class="bg" onload="init()">
+        <div id="top"></div>
+        <div class = "body" id="content"></div>
+    </body>
+</html>

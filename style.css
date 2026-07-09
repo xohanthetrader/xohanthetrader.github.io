@@ -1,0 +1,76 @@
+:root{
+    --nord0 : #2e3440;
+    --nord1 : #3b4252;
+    --nord2 : #434c5e;
+    --nord3 : #4c566a;
+    --nord4 : #d8dee9;
+    --nord5 : #e5e9f0;
+    --nord6 : #eceff4;
+    --nord8 : #8fbcbb;
+    --nord9 : #88c0d0;
+    --nord7 : #81a1c1;
+    --nord10 : #5e81ac;
+    --nord11 : #bf616a;
+    --nord12 : #d08770;
+    --nord13 : #ebcb8b;
+    --nord14 : #a3be8c;
+    --nord15 : #b48ead;
+    --barSize : 75px;
+}
+
+.topbar{
+    position: fixed;
+    top : 0;
+    width: 100%;
+    background-color: var(--nord10);
+    left: 0px;
+    z-index: 900;
+    border-bottom: 2px solid var(--nord2);
+    height: var(--barSize);
+}
+.bg{
+    background-color: var(--nord7);
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.body{
+    margin-top: var(--barSize);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.barbutton{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background-color: var(--nord10);
+    height: calc(var(--barSize) - 20px);
+    width: 100px;
+    border-radius: 8px;
+    border-width: 0px;
+    font-size: 100%;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+.barbutton:hover{
+    background-color: var(--nord9);
+    box-shadow: 3px 2px var(--nord3);
+}
+.nameplate{
+    margin: 10px 25px;
+    font-weight: 900;
+    font-family: Cinzel;
+    height: calc(var(--barSize) - 20px);
+    width: 150px;
+    font-size: 150%;
+    align-content: center;
+    font-variant: small-caps;
+    border-width: 0px;
+    background-color: var(--nord10);
+}
+.profile{
+    height: var(--barSize);
+    width: var(--barSize);
+}
