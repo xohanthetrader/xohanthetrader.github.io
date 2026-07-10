@@ -1,15 +1,21 @@
-<html id = "page">
-    <head>
+<html class="bg">
+    <head id = "head">
         <script src = "main.js"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
         <script>
             function init(){
-                embed(document.getElementById("body"),document.getElementById("page"))
+                embed(document.getElementById("top"))
             }
         </script>
     </head>
-    <body id = "body" onload="init()">
-        <p>
-            No content Here as of yet please look at blogposts
-        </p>
+    <body onload="init()">
+        <div id="top"></div>
+        <div class="body" id="content">
+            No content here look at blogs
+        </div>
     </body>
 </html>

@@ -1,16 +1,9 @@
-function embed(content,page,into="/template.html"){
-    const _content = content
+function embed(barLoc){
+    console.log(barLoc)
     fetch("/bar.html")
     .then(r => r.text())
     .then(bar => {
-        fetch(into)
-        .then(r => r.text())
-        .then(template => {
-            console.log(template)
-            page.innerHTML = template
-            page.querySelector("#top").innerHTML = bar
-            page.querySelector("#content").innerHTML = _content.innerHTML
-        })
+        barLoc.innerHTML = bar
     }) 
 }
 
