@@ -5,6 +5,6 @@ const posts = [
     },
     {
         name : "Recursion",
-        path : "proof/"
+        path : "proof/",
     }
 ]
